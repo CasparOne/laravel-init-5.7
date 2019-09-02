@@ -27,6 +27,18 @@
         "phpunit/phpunit": "^7.0",
         "roave/security-advisories": "dev-master"
     },
+    "repositories": [
+        {
+            "package": {
+                "name": "casparone/qiwi-laravel"
+            },
+            "type": "path",
+            "url": "packages/casparone/qiwi-laravel",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
